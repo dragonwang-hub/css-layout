@@ -12,3 +12,112 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    position: fixed;
+    width:100%;
+    background-color: black;
+    float: left;
+    height:60px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.monkeysofheader {
+    border-radius:50%
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -150px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    box-sizing: border-box;
+  }
+
+ul{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    height: 60px;
+    width: 20%;
+    margin-top: -30px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+li{
+    display: inline;
+}
+
+a:link{
+    color: greenyellow;
+}
+
+a:visited{
+    color: white;
+}
+
+main{
+    position: relative;
+    top:60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.description{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: gainsboro;
+}
+
+#descriptionimage{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.description-p2 {
+    clear: both;
+}
+
+.relationship{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+
+#relationshipimage{
+    width: 40%;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background: grey;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
